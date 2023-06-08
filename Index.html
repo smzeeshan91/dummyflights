@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Travel Booking Form ( Hotel, Flight, Car, Cruises)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Travel Booking Form ( Hotel, Flight, Car, Cruises)" />
+  <meta name="author" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+</head>
+
+<body>
+
+  <p class="links"><a href="index.html" class="selected">Main Form</a></p>
+
+  <div class="tabbed-area">
+
+    <div class="box-wrap">
+
+      <div id="box-one">
+
+        <h3>Book Cheap Dummy Flights</h3>
+
+        <form method="post">
+
+          <div class="row">
+            <div class="pull-left">
+              <label>No. Of Travelers</label>
+              <select class="select-traveler">
+                <option value="1">1 Traveler - $18</option>
+                <option value="2">2 Traveler - $35</option>
+                <option value="3">3 Traveler - $45</option>
+                <option value="4">4 Traveler - $55</option>
+                <option value="5">5 Traveler - $65</option>
+              </select>
+            </div>
+            <div class="pull-right"></div>
+          </div>
+
+          <div class="row">
+            <fieldset class="select_flight">
+              <legend>CHOOSE YOUR TRIP </legend>
+              <p>
+                <span>
+                  <label for="oneWay">
+                    <input type="radio" id="oneWay" name="options" value="One-way" class="radio" checked>
+                    <en>One Way</en>
+                  </label>
+                </span>
+                <span>
+                  <label for="roundTrip">
+                    <input type="radio" id="roundTrip" name="options" value="Round-trip" class="radio">
+                    <en>Round trip</en>
+                  </label>
+                </span>
+              </p>
+            </fieldset>
+          </div>
+
+          <div class="row">
+            <div class="pull-left">
+              <label>Email<small>( your email address for the ticket to be delivered )</small></label>
+              <input type="text" />
+            </div>
+            <div class="pull-right">
+              <label>Phone No.<small>( +1 XXX XXX-XXXX )</small></label>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="traveler">
+
+            <h4>Traveler Details</h4>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>Title</label>
+                <select class="first">
+                  <option>Mr.</option>
+                  <option>Mrs.</option>
+                  <option>Miss.</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="pull-right"></div>
+            </div>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div class="pull-right">
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="traveler">
+
+            <h4>Traveler 2 Details</h4>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>Title</label>
+                <select class="first">
+                  <option>Mr.</option>
+                  <option>Mrs.</option>
+                  <option>Miss.</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="pull-right"></div>
+            </div>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div class="pull-right">
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="traveler">
+
+            <h4>Traveler 3 Details</h4>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>Title</label>
+                <select class="first">
+                  <option>Mr.</option>
+                  <option>Mrs.</option>
+                  <option>Miss.</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="pull-right"></div>
+            </div>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div class="pull-right">
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="traveler">
+
+            <h4>Traveler 4 Details</h4>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>Title</label>
+                <select class="first">
+                  <option>Mr.</option>
+                  <option>Mrs.</option>
+                  <option>Miss.</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="pull-right"></div>
+            </div>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div class="pull-right">
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="traveler">
+
+            <h4>Traveler 5 Details</h4>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>Title</label>
+                <select class="first">
+                  <option>Mr.</option>
+                  <option>Mrs.</option>
+                  <option>Miss.</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="pull-right"></div>
+            </div>
+
+            <div class="row">
+              <div class="pull-left">
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div class="pull-right">
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="pull-left">
+              <label>Where from?<small>( City name or airport )</small></label>
+              <!-- <input type="text" /> -->
+              <div class="combo-depart">
+                <input type="text" id="depart-input" class="airport-input" placeholder="Select airport">
+                <div id="depart-dropdown" class="airport-dropdown hidden"></div>
+              </div>
+            </div>
+            <div class="pull-right">
+              <label>Where to?<small>( City name or airport )</small></label>
+              <!-- <input type="text" /> -->
+              <div class="combo-return">
+                <input type="text" id="return-input" class="airport-input" placeholder="Select airport">
+                <div id="return-dropdown" class="airport-dropdown hidden"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="pull-left">
+              <label>Departure</label>
+              <input type="text" class="calender departDate" placeholder="DD - MM - YYYY" />
+            </div>
+            <div class="pull-right">
+              <div class="returnDay hidden">
+                <label>Return</label>
+                <input type="text" class="calender returnDate" placeholder="DD - MM - YYYY" />
+              </div>
+            </div>
+          </div>
+
+          <div class="center_btn">
+            <button type="submit" class="orange_btn">Find Flight </button>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    // For travelers data adding
+    window.addEventListener('DOMContentLoaded', function () {
+      const boxOne = document.querySelector('.tabbed-area .box-wrap #box-one');
+      const travelers = boxOne.querySelectorAll('.traveler');
+      const select = boxOne.querySelector('.select-traveler');
+
+      for (let i = 1; i < travelers.length; i++) {
+        travelers[i].classList.add('hidden');
+      }
+
+      var visibleTravelers = boxOne.querySelectorAll('.traveler:not(.hidden)');
+      visibleTravelers[visibleTravelers.length - 1].classList.add('last-traveler');
+
+      select.addEventListener('change', function () {
+        const value = parseInt(this.value);
+        travelers.forEach((traveler, index) => {
+          if (index < value) {
+            traveler.classList.remove('hidden');
+            traveler.classList.remove('last-traveler');
+          } else {
+            traveler.classList.add('hidden');
+          }
+        });
+        const visibleTravelers = boxOne.querySelectorAll('.traveler:not(.hidden)');
+        visibleTravelers[visibleTravelers.length - 1].classList.add('last-traveler');
+      });
+    });
+
+    // Initialize Flatpickr datepickers
+    flatpickr(".departDate", {
+      enableTime: false,
+      dateFormat: "d-m-Y",
+      minDate: "today"
+    });
+    flatpickr(".returnDate", {
+      enableTime: false,
+      dateFormat: "d-m-Y",
+      minDate: "today"
+    });
+
+    // Get the radio buttons and date input elements
+    const radioButtons = document.querySelectorAll('.select_flight input[type="radio"]');
+    const returnDay = document.querySelector('.returnDay');
+
+    // Add event listener to the radio buttons
+    radioButtons.forEach(function (radioButton) {
+      radioButton.addEventListener('change', function () {
+        if (this.checked) {
+          if (this.value === 'Round-trip') {
+            returnDay.querySelector('.returnDate').value = '';
+            returnDay.classList.remove('hidden');
+          } else {
+            returnDay.classList.add('hidden');
+          }
+        }
+      });
+    });
+
+    //Airport filters
+    var jsonData = {};
+    fetch('https://api.jsonbin.io/v3/b/648211fbb89b1e2299abeaa3')
+      .then(response => response.json())
+      .then(data => {
+        // Do something with the JSON data
+        console.log(data.record);
+        jsonData = data.record;
+      })
+      .catch(error => {
+        // Handle any errors that occurred during the request
+        console.error('Error:', error);
+      });
+
+    var departInput = document.getElementById("depart-input");
+    var departDropdown = document.getElementById("depart-dropdown");
+
+    var returnInput = document.getElementById("return-input");
+    var returnDropdown = document.getElementById("return-dropdown");
+
+    function filterOptions(typ) {
+
+      var searchQuery;
+      if (typ == 1) {
+        searchQuery = departInput.value.toLowerCase();
+        departDropdown.innerHTML = "";
+      }
+      else {
+        searchQuery = returnInput.value.toLowerCase();
+        returnDropdown.innerHTML = "";
+      }
+
+      if (searchQuery.length < 3)
+        return;
+
+      var filteredOptions = [];
+
+      for (var country in jsonData) {
+        jsonData[country].forEach(function (airport) {
+          if (searchQuery === "" || airport.toLowerCase().includes(searchQuery)) {
+            filteredOptions.push(airport);
+          }
+        });
+      }
+
+      filteredOptions.sort();
+
+      filteredOptions.forEach(function (option) {
+        var item = document.createElement("div");
+        item.className = "airport-item";
+        item.textContent = option;
+        item.addEventListener("click", function () {
+          if (typ == 1) {
+            departInput.value = option;
+            departDropdown.innerHTML = "";
+          }
+          else {
+            returnInput.value = option;
+            returnDropdown.innerHTML = "";
+          }
+        });
+        if (typ == 1) {
+          departDropdown.appendChild(item);
+          departDropdown.classList.remove('hidden');
+        }
+        else {
+          returnDropdown.appendChild(item);
+          returnDropdown.classList.remove('hidden');
+        }
+      });
+    }
+
+    departInput.addEventListener("input", function () { filterOptions(1) });
+    // departInput.addEventListener("click", function () { filterOptions(1) });
+    returnInput.addEventListener("input", function () { filterOptions(2) });
+    // returnInput.addEventListener("click", function () { filterOptions(2) });
+
+    document.body.addEventListener('click', function (event) {
+      const clickedElement = event.target;
+      // Check if the clicked element or any of its ancestors have the excluded class
+      if (!clickedElement.closest('.combo-depart')) {
+        departDropdown.classList.add('hidden');
+      } else {
+        departDropdown.classList.remove('hidden');
+      }
+      if (!clickedElement.closest('.combo-return')) {
+        returnDropdown.classList.add('hidden');
+      } else {
+        returnDropdown.classList.remove('hidden');
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>
